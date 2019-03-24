@@ -10,7 +10,9 @@
 
 * Install postgresql [https://postgresapp.com/]
 
-* Run `rails db:migrate` does db:create, db:schema:load, db:seed
+* Run `rails db:migrate`
+
+* Run  `rails db:seed`
 
 * Run `rails s`
 

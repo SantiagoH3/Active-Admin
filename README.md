@@ -1,24 +1,20 @@
-# README
+# Active Admin.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Local environment
 
-Things you may want to cover:
+* Install Ruby.
 
-* Ruby version
+* Install bundler.
 
-* System dependencies
+* Install dependencies with bundler: `bundle install`
 
-* Configuration
+* Install postgresql [https://postgresapp.com/]
 
-* Database creation
+* Run `rails db:migrate` does db:create, db:schema:load, db:seed
 
-* Database initialization
+* Run `rails s`
 
-* How to run the test suite
+* Go to [http://localhost:3000/admin/login]
 
-* Services (job queues, cache servers, search engines, etc.)
+* User: `admin@example.com` Password: `password`
 
-* Deployment instructions
-
-* ...
